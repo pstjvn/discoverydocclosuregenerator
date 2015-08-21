@@ -1,0 +1,729 @@
+.pstj-ng-cloak {
+  display: none ! important;
+}
+.pstj-switch-off {
+  visibility: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  /* @alternative */
+  -moz-box-sizing: border-box;
+  /* @alternative */
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.fillall,
+.ripple-bg,
+.ripple-waves,
+.wave-container,
+.wave {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.core-fill-position,
+.core-fit,
+.fit,
+.material-header-panel-outer-container,
+.ripple,
+.material-shadow,
+.material-shadow-top,
+.material-shadow-bottom,
+.material-button .material-shadow,
+.material-input-body-label,
+.material-input-focused-underline,
+.material-input-not-focused-underline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.borderbox {
+  box-sizing: border-box;
+  /* @alternative */
+  -moz-box-sizing: border-box;
+  /* @alternative */
+  -webkit-box-sizing: border-box;
+}
+.core-hidden,
+.material-header-panel-shadow .material-drop-shadow {
+  display: none;
+}
+.core-empty,
+.core-press,
+.core-move,
+.core-release,
+.core-tap,
+.core-longpress,
+.core-scroll,
+.core-swipe,
+.core-ripple .material-button-tactile,
+.material-fab-tactile,
+.material-icon-button-tactile {
+  nonexisting: #fff;
+}
+.core-flex,
+.flex,
+.material-header-panel-main,
+.material-header-panel-main-container,
+.material-input-body,
+.material-input-footer-error,
+.material-input-footer-error-text {
+  -ms-flex: 1 1 0.000000001px;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 0.000000001px;
+  flex-basis: 0.000000001px;
+}
+.core-flexd,
+.core-flex-display,
+.material-header-panel-outer-container,
+.material-header-panel-main,
+.material-fab,
+.horizontal,
+.vertical,
+.material-button,
+.material-input-footer,
+.material-input-footer-error,
+.header,
+.header .button-wrapper {
+  display: -ms-flex;
+  /* @alternative */
+  display: -webkit-flex;
+  /* @alternative */
+  display: flex;
+}
+.core-flex-vertical,
+.vertical,
+.material-header-panel-outer-container,
+.material-header-panel-main {
+  -ms-flex-direction: column;
+  /* @alternative */
+  -webkit-flex-direction: column;
+  /* @alternative */
+  flex-direction: column;
+}
+.core-flex-direction-row,
+.horizontal,
+.material-button,
+.material-input-footer,
+.material-input-footer-error,
+.header,
+.header .button-wrapper {
+  -ms-flex-direction: row;
+  /* @alternative */
+  -webkit-flex-direction: row;
+  /* @a;ternative */
+  flex-direction: row;
+}
+.core-flex-align-center,
+.center,
+.material-input-footer-error,
+.header .button-wrapper {
+  -ms-flex-align: center;
+  /* @alternative */
+  -webkit-align-items: center;
+  /* @alternative */
+  align-items: center;
+}
+.core-flex-align-end,
+.end,
+.material-input-footer {
+  -ms-flex-align: end;
+  /* @alternative */
+  -webkit-align-items: flex-end;
+  /* @alternative */
+  align-items: flex-end;
+}
+.core-flex-align-start-justified,
+.start-justified {
+  -ms-flex-pack: start;
+  /* @alternative */
+  -webkit-justify-content: flex-start;
+  /* @alternative */
+  justify-content: flex-start;
+}
+.core-flex-align-center-justified,
+.core-flex-align-center-center,
+.center-justified {
+  -ms-flex-pack: center;
+  /* @alternative */
+  -webkit-justify-content: center;
+  /* @alternative */
+  justify-content: center;
+}
+.core-flex-align-end-justified,
+.end-justified {
+  -ms-flex-pack: end;
+  /* @alternative */
+  -webkit-justify-content: flex-end;
+  /* @alternative */
+  justify-content: flex-end;
+}
+.core-flex-align-space-between,
+.justified {
+  -ms-flex-pack: justify;
+  /* @alternative */
+  -webkit-justify-content: space-between;
+  /* @alternative */
+  justify-content: space-between;
+}
+.flex-1,
+.header .material-input {
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.flex-2 {
+  -ms-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+}
+.flex-3 {
+  -ms-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+.flex-4 {
+  -ms-flex: 4;
+  -webkit-flex: 4;
+  flex: 4;
+}
+.flex-5 {
+  -ms-flex: 5;
+  -webkit-flex: 5;
+  flex: 5;
+}
+.flex-6 {
+  -ms-flex: 6;
+  -webkit-flex: 6;
+  flex: 6;
+}
+.flex-7 {
+  -ms-flex: 7;
+  -webkit-flex: 7;
+  flex: 7;
+}
+.flex-8 {
+  -ms-flex: 8;
+  -webkit-flex: 8;
+  flex: 8;
+}
+.flex-9 {
+  -ms-flex: 9;
+  -webkit-flex: 9;
+  flex: 9;
+}
+.flex-10 {
+  -ms-flex: 10;
+  -webkit-flex: 10;
+  flex: 10;
+}
+.flex-11 {
+  -ms-flex: 11;
+  -webkit-flex: 11;
+  flex: 11;
+}
+.flex-12 {
+  -ms-flex: 12;
+  -webkit-flex: 12;
+  flex: 12;
+}
+.auto,
+.material-input-body,
+.material-input-footer-error-text {
+  -ms-flex: 1 1 auto;
+  -webkit-flex-basis: auto;
+  flex-basis: auto;
+}
+.relative,
+.material-input-body,
+.material-input-underline {
+  position: relative;
+}
+.invisible,
+.floating-label-invisible {
+  visibility: hidden;
+}
+.center-center,
+.material-fab {
+  -ms-flex-align: center;
+  /* @alternate */
+  -webkit-align-items: center;
+  /* @alternate */
+  align-items: center;
+  -ms-flex-pack: center;
+  /* @alternate */
+  -webkit-justify-content: center;
+  /* @alternate */
+  justify-content: center;
+}
+.animated,
+.material-input.material-input-transition .material-input-body .material-input-body-label .material-input-body-label-text,
+.material-input.material-input-focused .material-input-focused-underline {
+  visibility: visible !important;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  /* @alternative */
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.ripple {
+  border-radius: inherit;
+  overflow: hidden;
+  background-color: yellow;
+  color: red;
+}
+.ripple.ripple-circle .ripple-bg,
+.ripple.ripple-circle .ripple-waves {
+  border-radius: 50%;
+}
+.ripple.ripple-circle .wave-container {
+  overflow: hidden;
+}
+.ripple-bg,
+.ripple .wave {
+  opacity: 0;
+}
+.ripple-waves,
+.ripple .wave {
+  overflow: hidden;
+}
+.wave-container,
+.wave {
+  border-radius: 50%;
+}
+.material-shadow {
+  z-index: -1;
+  display: block;
+}
+.material-shadow-top,
+.material-shadow-bottom {
+  border-radius: inherit;
+}
+.material-shadow-transition .material-shadow-top,
+.material-shadow-transition .material-shadow-bottom {
+  -webkit-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  /* @alternate */
+  -moz-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  /* @alternate */
+  -ms-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  /* @alternate */
+  -o-transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  /* @alternate */
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.material-shadow-1 .material-shadow-top {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.16);
+}
+.material-shadow-1 .material-shadow-bottom {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.material-shadow-2 .material-shadow-top {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.material-shadow-2 .material-shadow-bottom {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+.material-shadow-3 .material-shadow-top {
+  box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.material-shadow-3 .material-shadow-bottom {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+.material-shadow-4 .material-shadow-top {
+  box-shadow: 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+.material-shadow-4 .material-shadow-bottom {
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22);
+}
+.material-shadow-5 .material-shadow-top {
+  box-shadow: 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+}
+.material-shadow-5 .material-shadow-bottom {
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2);
+}
+.backgr {
+  fill: #FFF;
+}
+.material-icon-container {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.material-icon-container .material-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.material-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.material-icon[type="none"] {
+  display: none;
+}
+.material-icon[type="none"] .menu,
+.material-icon[type="none"] .playback {
+  display: none;
+}
+.material-icon[type="none"] .menu .first,
+.material-icon[type="none"] .menu .third {
+  -webkit-transform: translateY(0) rotate(0deg) scaleX(1);
+  -moz-transform: translateY(0) rotate(0deg) scaleX(1);
+  transform: translateY(0) rotate(0deg) scaleX(1);
+}
+.icon-scaleup,
+.material-icon[type="from-none-to-user"],
+.material-icon[type="from-none-to-warning"],
+.material-icon[type="from-none-to-menu"],
+.material-icon[type="from-none-to-plus"],
+.material-icon[type="from-none-to-cast-ready"],
+.material-icon[type="from-none-to-cast-active"],
+.material-icon[type="from-none-to-arrow-drop-down"],
+.material-icon[type="from-none-to-arrow-drop-up"] {
+  display: block;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: icon-scaleup 200ms;
+  /* @alternate */
+  -moz-animation: icon-scaleup 200ms;
+  /* @alternate */
+  -ms-animation: icon-scaleup 200ms;
+  /* @alternate */
+  animation: icon-scaleup 200ms;
+}
+@-webkit-keyframes icon-scaleup {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+.icon-fadeout,
+.material-icon[type="from-user-to-none"],
+.material-icon[type="from-warning-to-none"],
+.material-icon[type="from-menu-to-none"],
+.material-icon[type="from-plus-to-none"],
+.material-icon[type="from-back-arrow-to-none"],
+.material-icon[type="from-forward-arrow-to-none"],
+.material-icon[type="from-cast-ready-to-none"],
+.material-icon[type="from-cast-active-to-none"],
+.material-icon[type="from-arrow-drop-down-to-none"],
+.material-icon[type="from-arrow-drop-up-to-none"] {
+  display: block;
+  -webkit-animation: icon-fade 200ms;
+  /* @alternate */
+  -moz-animation: icon-fade 200ms;
+  /* @alternate */
+  -ms-animation: icon-fade 200ms;
+  /* @alternate */
+  animation: icon-fade 200ms;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+}
+@-webkit-keyframes icon-fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.material-button {
+  display: inline-block;
+  color: black;
+  position: relative;
+  min-width: 5.14em;
+  padding: 0.7em 0.57em;
+  margin: 0 0.29em;
+  background: transparent;
+  text-align: center;
+  font: inherit;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 0;
+}
+.material-button-label {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.material-button .material-shadow {
+  border-radius: inherit;
+}
+.material-button .ripple {
+  background-color: inherit;
+  color: inherit;
+  pointer-events: none;
+  z-index: -1;
+}
+.material-button .material-icon-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.material-button .material-icon-container svg {
+  fill: black;
+}
+.material-button .material-icon-container-empty {
+  display: none;
+}
+.material-button > .core-element {
+  display: inline-block;
+  vertical-align: middle;
+}
+.material-button .material-button-label {
+  line-height: 25px;
+}
+.material-button-disabled {
+  background-color: #eaeaea;
+  cursor: auto;
+  pointer-events: none;
+}
+.material-button-disabled .material-button-label {
+  color: #a8a8a8;
+}
+.material-button-disabled .material-icon-container > svg {
+  fill: #a8a8a8;
+}
+.material-header-panel {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.material-header-panel-main {
+  position: relative;
+}
+.material-header-panel-main-container {
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.material-header-panel-shadow .material-drop-shadow {
+  display: block ! important;
+}
+.material-header-panel-transition .material-header-panel-header {
+  transition: height 0.2s;
+}
+.material-header-panel-header {
+  height: 60px;
+  position: relative;
+}
+.material-header-panel-tall .material-header-panel-header {
+  height: 180px;
+}
+.material-header-panel-scroll .material-header-panel-main-container {
+  overflow: visible;
+}
+.material-header-panel-shadow .material-drop-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.4);
+}
+.floating-label {
+  font-size: 0.75em;
+  background: transparent;
+  white-space: nowrap;
+}
+.floating-label-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100%;
+  -moz-transform-origin: 0% 0%;
+  /* @alternative */
+  -webkit-transform-origin: 0% 0%;
+  /* @alternative */
+  transform-origin: 0% 0%;
+}
+.material-input-base {
+  display: inline-block;
+}
+.material-input {
+  display: inline-block;
+  outline: none;
+  text-align: inherit;
+  padding: 0.75em 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+}
+.material-input input {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0.5em 0 0.25em;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+.material-input-floated-label {
+  background: transparent;
+  white-space: nowrap;
+}
+.material-input-floated-label-text {
+  color: #d34336;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100%;
+  -moz-transform-origin: 0% 0%;
+  /* @alternative */
+  -webkit-transform-origin: 0% 0%;
+  /* @alternative */
+  transform-origin: 0% 0%;
+}
+.material-input-body-label {
+  padding: 0.5em 0 0.25em;
+  background: transparent;
+  pointer-events: none;
+}
+.material-input-body-label-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 100%;
+  -moz-transform-origin: 0% 0%;
+  /* @alternative */
+  -webkit-transform-origin: 0% 0%;
+  /* @alternative */
+  transform-origin: 0% 0%;
+}
+.material-input-underline {
+  height: 0px;
+  overflow: visible;
+}
+.material-input-focused-underline {
+  visibility: hidden;
+  height: 2px;
+  -webkit-transform: scale3d(0, 1, 1);
+  transform: scale3d(0, 1, 1);
+  background-color: #78909c;
+}
+.material-input-not-focused-underline {
+  height: 1px;
+  background-color: #757575;
+}
+.material-input-footer-error {
+  visibility: hidden;
+  color: #d34336;
+}
+.material-input-footer-error-text {
+  font-size: 0.75em;
+  padding: 0.5em 0;
+}
+.material-input .material-icon {
+  fill: #d34336;
+  width: 20px;
+  height: 20px;
+}
+.material-input .material-icon-container {
+  width: 20px;
+  height: 20px;
+}
+.material-input-invalid .material-input-footer-error {
+  visibility: visible;
+}
+.material-input.material-input-focused .material-input-focused-underline {
+  -webkit-transform: none;
+  /* @alternative */
+  transform: none;
+}
+.material-input-invalid .material-input-focused-underline {
+  background-color: #d34336;
+}
+.material-input .material-input-floated-label-text {
+  color: #78909c;
+}
+.material-input.material-input-invalid .material-input-floated-label-text {
+  color: #d34336;
+}
+.material-fab {
+  color: white;
+  background-color: black;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  z-index: 0;
+  box-sizing: border-box;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.material-fab-disabled {
+  color: gray;
+  pointer-events: none;
+  cursor: auto;
+}
+.material-fab .ripple {
+  pointer-events: none;
+  z-index: -1;
+  color: inherit;
+  background-color: inherit;
+}
+.material-fab .material-shadow {
+  border-radius: inherit;
+}
+.material-fab .material-icon {
+  display: block;
+  fill: white;
+}
+.header {
+  background-color: #eceff1;
+  padding: 10px 30px;
+}
+.header .button-wrapper {
+  padding-left: 30px;
+}
+*:focus {
+  outline-style: none;
+}
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+.discovery-app .material-header-panel-header {
+  height: 112px;
+}
+.material-button {
+  background-color: #90a4ae;
+}
+.material-fab {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #90a4ae;
+}

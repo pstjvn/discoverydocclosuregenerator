@@ -1,0 +1,52 @@
+{namespace discovery.template}
+
+/** Themplate for the application body. */
+{template .Application}
+<div class="{css fit}">
+  {call .Header /}
+  <div is class="{css material-fab} {css material-fab-raised}" icon="download" ink use-pointer action="download">
+    {call pstj.material.template.Shadow /}
+    {call pstj.material.template.IconContainer}
+      {param type: 'download' /}
+    {/call}
+    {call pstj.material.template.Ripple}
+      {param recenter: true /}
+    {/call}
+  </div>
+</div>
+{/template}
+
+/** Template for the header. */
+{template .Header}
+<div is class="{css material-header-panel}" waterfall>
+  <div class="{css material-header-panel-outer-container}">
+    <div is class="{css material-header-panel-header}">
+      <div class="{css header}">
+        {call pstj.material.template.Input}
+          {param name: 'url' /}
+          {param type: 'text' /}
+          {param value: '' /}
+          {param label: 'Discovery document URL' /}
+        {/call}
+        <div class="{css button-wrapper}">
+          {call pstj.material.template.Button}
+            {param icon: 'none' /}
+            {param content: 'go!' /}
+            {param ink: true /}
+            {param action: 'go' /}
+          {/call}
+        </div>
+      </div>
+    </div>
+    <div is class="{css material-header-panel-main}" use-scroll>
+      <div class="{css material-header-panel-main-container}">
+        <div class="{css material-header-panel-main-content}">
+          <pre id="result">
+          </pre>
+        </div>
+      </div>
+      <div class="{css material-drop-shadow}"></div>
+    </div>
+  </div>
+</div>
+{/template}
